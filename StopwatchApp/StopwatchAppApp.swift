@@ -14,4 +14,5 @@ struct StopwatchAppApp: App {
             ContentView()
         }
     }
+    
 }

@@ -11,6 +11,7 @@
 		2A23250B2AF02DB1003814AE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A23250A2AF02DB1003814AE /* ContentView.swift */; };
 		2A23250D2AF02DB3003814AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A23250C2AF02DB3003814AE /* Assets.xcassets */; };
 		2A2325102AF02DB3003814AE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A23250F2AF02DB3003814AE /* Preview Assets.xcassets */; };
+		2A2325182AF03351003814AE /* CircleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2325172AF03351003814AE /* CircleButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		2A23250C2AF02DB3003814AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A23250F2AF02DB3003814AE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2A2325112AF02DB3003814AE /* StopwatchApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StopwatchApp.entitlements; sourceTree = "<group>"; };
+		2A2325172AF03351003814AE /* CircleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				2A23250C2AF02DB3003814AE /* Assets.xcassets */,
 				2A2325112AF02DB3003814AE /* StopwatchApp.entitlements */,
 				2A23250E2AF02DB3003814AE /* Preview Content */,
+				2A2325172AF03351003814AE /* CircleButtonView.swift */,
 			);
 			path = StopwatchApp;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A2325182AF03351003814AE /* CircleButtonView.swift in Sources */,
 				2A23250B2AF02DB1003814AE /* ContentView.swift in Sources */,
 				2A2325092AF02DB1003814AE /* StopwatchAppApp.swift in Sources */,
 			);
@@ -287,8 +291,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ca.ednasung.StopwatchApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -314,8 +321,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ca.ednasung.StopwatchApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
