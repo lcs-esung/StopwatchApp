@@ -37,13 +37,19 @@ struct ContentView: View {
                 }
                 
                 List{
-                    Text("1")
-                    Text("2")
-                    Text("3")
-                    Text("4")
-                    Text("5")
+                    
+                    Group{
+                        Text("1")
+                        Text("2")
+                        Text("3")
+                        Text("4")
+                        Text("5")
+                    }
+                    .listRowInsets(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 0))
+
                 }
                 .frame(height: 300)
+                .listStyle(.plain)
 
             }
             .padding()
