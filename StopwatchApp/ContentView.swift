@@ -39,11 +39,45 @@ struct ContentView: View {
                 List{
                     
                     Group{
-                        Text("1")
-                        Text("2")
-                        Text("3")
-                        Text("4")
-                        Text("5")
+                        HStack {
+                            Text("Lap 5")
+                            
+                            Spacer()
+                            
+                            Text("00:00.98")
+                        }
+                        
+                        HStack {
+                            Text("Lap 4")
+                                .foregroundColor(.red)
+                            
+                            Spacer()
+                            
+                            Text("00:04.08")
+                                .foregroundColor(.red)
+                        }
+                        HStack {
+                            Text("Lap 3")
+                                .foregroundColor(.green)
+                            Spacer()
+                            
+                            Text("00:00.96")
+                                .foregroundColor(.green)
+                        }
+                        HStack {
+                            Text("Lap 2")
+                            
+                            Spacer()
+                            
+                            Text("00:02.76")
+                        }
+                        HStack {
+                            Text("Lap 1")
+                            
+                            Spacer()
+                            
+                            Text("00:01.16")
+                        }
                     }
                     .listRowInsets(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 0))
 
