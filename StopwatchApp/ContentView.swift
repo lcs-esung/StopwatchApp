@@ -17,6 +17,8 @@ struct ContentView: View {
             
             VStack {
                 
+                Spacer()
+                
                 Text("00:09.96")
                     .foregroundColor(.white)
                     .font(.system(size: 90, weight: .thin))
@@ -33,6 +35,15 @@ struct ContentView: View {
                                      label: "Start",
                                      labelColour: .green)
                 }
+                
+                List{
+                    Text("1")
+                    Text("2")
+                    Text("3")
+                    Text("4")
+                    Text("5")
+                }
+                .frame(height: 300)
 
             }
             .padding()
